@@ -78,14 +78,20 @@ img {
   width: 100%;
   background-color: #fff;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
 }
 
-.header .container {
+/* .header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
-}
+} */
 
 .header-logo {
   font-size: 20px;
@@ -93,11 +99,14 @@ img {
   line-height: 1.2;
   margin-right: 20px;
   letter-spacing: .05em;
+  a {
+    color: #333;
+  }
 }
 
-.header-logo a {
+/* .header-logo a {
   color: #333;
-}
+} */
 
 .gnav-list {
   display: flex;
